@@ -5,8 +5,8 @@ const crypto = require('crypto');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const WORKING_KEY = process.env.WORKING_KEY || "your-working-key";
-const ACCESS_CODE = process.env.ACCESS_CODE || "your-access-code";
+const WORKING_KEY = "474061969193407745E1EEE1F6B67EB9"	 || "your-working-key";
+const ACCESS_CODE = "AVHZ77FE84AJ57ZHJA"|| "your-access-code";
 
 app.use(bodyParser.json());
 
