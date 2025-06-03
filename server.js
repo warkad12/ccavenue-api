@@ -6,8 +6,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your actual working key and access code
-const WORKING_KEY = "474061969193407745E1EEE1F6B67EB9"; 
-const ACCESS_CODE = "AVHM73EI06BA99MHAB";
+const WORKING_KEY = "5359E7A74922E31E22D5EF4DC0545518"; 
+const ACCESS_CODE = "ATJ5ESBC4GUHISZMC7";
 
 // Static IV like CCAvenue expects
 const iv = Buffer.from([...Array(16).keys()]); // [0x00 to 0x0f]
